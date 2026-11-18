@@ -30,6 +30,12 @@
   }
 ,
   {
+    "filename": "grep-x86_64.tar.xz",
+    "size": 433548,
+    "sha256": "80bc42597395d9ac56b7b3a1a506329dfb0450f8f1e443da36732f8f0dba7c38"
+  }
+,
+  {
     "filename": "make-x86_64.tar.xz",
     "size": 710192,
     "sha256": "510ab923094dcd39c5ee14e5da0135e948b31bca65a5b81b3c9822b6701eda5b"

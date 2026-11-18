@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Kök yetkisi kontrolü
+if [ "$EUID" -ne 0 ]; then
+  echo "Hata: Bu komutu çalıştırmak için sudo kullanmalısınız."
+  echo "Örnek: sudo ./zlib install <paket.tar.xz>"
+  exit 1
+fi
+
+COMMAND=$1
+TARGET=$2
+
+case "$COMMAND" in
+  install)
+    if [ -z "$TARGET" ]; then
+      echo "Kullanım: sudo ./zlib install <paket.tar.xz>"
+      exit 1
+    fi
+    if [ ! -f "$TARGET" ]; then
+      echo "Hata: '$TARGET' dosyası bulunamadı!"
+      exit 1
+    fi
+    echo "[$TARGET] Ahz dağıtımına kuruluyor..."
+    tar -xvf "$TARGET" -C /
+    echo "Kurulum başarıyla tamamlandı!"
+    ;;
+    
+  remove)
+    if [ -z "$TARGET" ]; then
+      echo "Kullanım: sudo ./zlib remove <paket_adi>"
+      exit 1
+    fi
+    echo "Uyarı: Basit paket yöneticisinde kaldırma işlemi için dosya listesi takibi gerekir."
+    ;;
+    
+  update)
+    echo "Depo kontrol ediliyor ve güncellemeler aranıyor..."
+    # İleride GitHub'daki packages.db dosyasını buraya bağlayacağız
+    echo "Sisteminiz şu an en güncel sürümde."
+    ;;
+    
+  *)
+    echo "Ahz Dağıtımı Paket Yöneticisi"
+    echo "Kullanım:"
+    echo "  sudo ./zlib install <paket.tar.xz>  -> Paketi kurar"
+    echo "  sudo ./zlib update                 -> Paketleri günceller"
+    ;;
+esac

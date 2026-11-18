@@ -24,6 +24,12 @@
   }
 ,
   {
+    "filename": "gawk-x86_64.tar.xz",
+    "size": 1940868,
+    "sha256": "6257f85d4a494ff65e60d6b2b5a2ba4dbe539b0b1a452548b2183c5e2ae41c1d"
+  }
+,
+  {
     "filename": "make-x86_64.tar.xz",
     "size": 710192,
     "sha256": "510ab923094dcd39c5ee14e5da0135e948b31bca65a5b81b3c9822b6701eda5b"

@@ -18,6 +18,12 @@
   }
 ,
   {
+    "filename": "make-x86_64.tar.xz",
+    "size": 710192,
+    "sha256": "510ab923094dcd39c5ee14e5da0135e948b31bca65a5b81b3c9822b6701eda5b"
+  }
+,
+  {
     "filename": "zlib-1.3.1-x86_64.tar.xz",
     "size": 93004,
     "sha256": "0eb26bb6b769c88c5d385c38d290efba31cb79c6b5c992fb172275eb6fb86562"

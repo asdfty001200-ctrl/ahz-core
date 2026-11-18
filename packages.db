@@ -6,6 +6,12 @@
   }
 ,
   {
+    "filename": "coreutils-x86_64.tar.xz",
+    "size": 1547488,
+    "sha256": "e01094c7c5e504d4e9088dc03eec3d6737a3e065278b82b78823f3b703de3fe3"
+  }
+,
+  {
     "filename": "file-x86_64.tar.xz",
     "size": 601060,
     "sha256": "e62848a4e8cc2cf5017f04fe3d83193d3a1e6a0bf724c2413636972f04ea5fdb"

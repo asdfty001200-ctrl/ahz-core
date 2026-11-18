@@ -36,6 +36,12 @@
   }
 ,
   {
+    "filename": "gzip-x86_64.tar.xz",
+    "size": 168344,
+    "sha256": "44e2529b5253489127af29137eb6e4eb5ab289f88d03f8644b60d886a4c93f80"
+  }
+,
+  {
     "filename": "make-x86_64.tar.xz",
     "size": 710192,
     "sha256": "510ab923094dcd39c5ee14e5da0135e948b31bca65a5b81b3c9822b6701eda5b"

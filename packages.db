@@ -18,6 +18,12 @@
   }
 ,
   {
+    "filename": "findutils-x86_64.tar.xz",
+    "size": 774864,
+    "sha256": "ef8f40766aefe616b72f26b6ed949a197a83bd63ec7958d8b904e3b5661909b3"
+  }
+,
+  {
     "filename": "make-x86_64.tar.xz",
     "size": 710192,
     "sha256": "510ab923094dcd39c5ee14e5da0135e948b31bca65a5b81b3c9822b6701eda5b"

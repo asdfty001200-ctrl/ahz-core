@@ -48,6 +48,12 @@
   }
 ,
   {
+    "filename": "patch-x86_64.tar.xz",
+    "size": 316332,
+    "sha256": "aa78bf6c7171c1418e024833a42854ec77a43433683efd950c0127bc4859c80b"
+  }
+,
+  {
     "filename": "sed-x86_64.tar.xz",
     "size": 338676,
     "sha256": "03a2259d54d1c00c440c2c1e784ddda3f8e36096b9b46118b302abf642bb2881"

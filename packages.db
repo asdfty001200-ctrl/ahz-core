@@ -1,5 +1,11 @@
 [
   {
+    "filename": "file-x86_64.tar.xz",
+    "size": 601060,
+    "sha256": "e62848a4e8cc2cf5017f04fe3d83193d3a1e6a0bf724c2413636972f04ea5fdb"
+  }
+,
+  {
     "filename": "zlib-1.3.1-x86_64.tar.xz",
     "size": 93004,
     "sha256": "0eb26bb6b769c88c5d385c38d290efba31cb79c6b5c992fb172275eb6fb86562"

@@ -4,5 +4,11 @@
     "size": 93004,
     "sha256": "0eb26bb6b769c88c5d385c38d290efba31cb79c6b5c992fb172275eb6fb86562"
   }
+,
+  {
+    "filename": "zlib-x86_64.tar.xz",
+    "size": 180,
+    "sha256": "e156ca69b8639c145358e687e4f3935df0a7832117b734b94921ff76a2851577"
+  }
 
 ]

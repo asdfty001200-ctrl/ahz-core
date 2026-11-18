@@ -42,6 +42,12 @@
   }
 ,
   {
+    "filename": "sed-x86_64.tar.xz",
+    "size": 338676,
+    "sha256": "03a2259d54d1c00c440c2c1e784ddda3f8e36096b9b46118b302abf642bb2881"
+  }
+,
+  {
     "filename": "tar-x86_64.tar.xz",
     "size": 1230724,
     "sha256": "8011ac989b30844230b4546fab0656a1abbc8ed1b9bb34735a058a40cf03f6f5"
